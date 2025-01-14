@@ -1,0 +1,108 @@
+Starting simulation...
+Case Path: /hydra/cases/csv/norm_openb_pod_list_gpushare20.csv, Cluster Config: {"A100":1,"GTX2080Ti":5,"V100":2}
+Case Ranges: /hydra/cases/csv/norm_openb_pod_list_gpushare20.csv, SchedulerTypes: [Gavel]
+Start simulation time: 2024-07-30_09:37:14
+Starting Simulation For Scheduler Gavel, StartTime: 2024-07-30_09:37:14
+Simulation For Scheduler Gavel, CaseRange: [0 10], StartTime: 2024-07-30_09:37:14
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 10] Finished, EndTime: 2024-07-30_09:37:14, RunTime: 0.00
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1853
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1964
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 3409
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 3679.9999999999995
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 4007.0000000000005
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 6256
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 16579
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 31818.00000000001
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 35066.99999999999
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1853.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=GTX2080Ti]:
+    Start: 0.000000, End: 1853.000000, Runtime: 1853.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1964.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=GTX2080Ti]:
+    Start: 0.000000, End: 1964.000000, Runtime: 1964.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3409.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3409.000000, Runtime: 3409.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3680.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3680.000000, Runtime: 3680.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4007.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4007.000000, Runtime: 4007.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6256.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=V100]:
+    Start: 0.000000, End: 6256.000000, Runtime: 6256.000000
+---------------------------------
+    SumRuntimeOnGPUs: 15578.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 1001.000000, End: 16579.000000, Runtime: 15578.000000
+---------------------------------
+    SumRuntimeOnGPUs: 29965.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=GTX2080Ti]:
+    Start: 1853.000000, End: 31818.000000, Runtime: 29965.000000
+---------------------------------
+    SumRuntimeOnGPUs: 35067.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=V100]:
+    Start: 0.000000, End: 35067.000000, Runtime: 35067.000000
+---------------------------------
+************************
+Ending Simulation For Scheduler Gavel, EndTime: 2024-07-30_09:37:14, RunTime: 0.00
+End Simulation Time: 2024-07-30_09:37:14, RunTime: 0.00
+generate report to /hydra/data/[vel]_norm_openb_pod_list_gpushare20_case_range_([0_10]-[0_10])_07-30_09:37:14.json

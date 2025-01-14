@@ -1,0 +1,1408 @@
+Starting simulation...
+Case Path: /hydra/cases/csv/norm_openb_pod_list_gpushare20.csv, Cluster Config: {"A100":10,"GTX2080Ti":15,"V100":20}
+Case Ranges: /hydra/cases/csv/norm_openb_pod_list_gpushare20.csv, SchedulerTypes: [Gavel]
+Start simulation time: 2024-07-30_08:30:34
+Starting Simulation For Scheduler Gavel, StartTime: 2024-07-30_08:30:34
+Simulation For Scheduler Gavel, CaseRange: [0 10], StartTime: 2024-07-30_08:30:34
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 10] Finished, EndTime: 2024-07-30_08:30:34, RunTime: 0.00
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1315
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1393
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 2026
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 2067
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 2220
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 2590
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 14230
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 15577.999999999998
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 20604
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1315.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1315.000000, Runtime: 1315.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1393.000000
+    ExecutionRanges:
+  gpu=[ID=8, Type=A100]:
+    Start: 0.000000, End: 1393.000000, Runtime: 1393.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2026.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 0.000000, End: 2026.000000, Runtime: 2026.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2067.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 0.000000, End: 2067.000000, Runtime: 2067.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2220.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=A100]:
+    Start: 0.000000, End: 2220.000000, Runtime: 2220.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2590.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 0.000000, End: 2590.000000, Runtime: 2590.000000
+---------------------------------
+    SumRuntimeOnGPUs: 14230.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 0.000000, End: 14230.000000, Runtime: 14230.000000
+---------------------------------
+    SumRuntimeOnGPUs: 15578.000000
+    ExecutionRanges:
+  gpu=[ID=9, Type=A100]:
+    Start: 0.000000, End: 15578.000000, Runtime: 15578.000000
+---------------------------------
+    SumRuntimeOnGPUs: 20604.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=A100]:
+    Start: 0.000000, End: 20604.000000, Runtime: 20604.000000
+---------------------------------
+************************
+Simulation For Scheduler Gavel, CaseRange: [0 20], StartTime: 2024-07-30_08:30:34
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=2032)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=2458)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=2499)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=2630)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=5213)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=5732)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=6232)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=6468)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=6862)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=10526)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=3656)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=3754)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=4180)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=4307)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=7120)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=7403)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=8725)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=8795)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=10358)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=17392)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=1417)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=1468)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=1661)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=1741)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=2849)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=2931)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=3356)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=3442)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=4021)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=7240)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 20] Finished, EndTime: 2024-07-30_08:30:34, RunTime: 0.00
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1315
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1393
+i: openb-pod-1310 &{openb-pod-1310 0 +Inf map[A100:1417 GTX2080Ti:2032 V100:3656]} 1417
+i: openb-pod-2261 &{openb-pod-2261 0 +Inf map[A100:1468 GTX2080Ti:2630 V100:3754]} 1468
+i: openb-pod-2849 &{openb-pod-2849 0 +Inf map[A100:1661 GTX2080Ti:2499 V100:4180]} 1661
+i: openb-pod-1968 &{openb-pod-1968 0 +Inf map[A100:1741 GTX2080Ti:2458 V100:4307]} 1741
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 2026
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 2067
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 2220
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 4321.000000000001
+i: openb-pod-2266 &{openb-pod-2266 0 +Inf map[A100:2849 GTX2080Ti:5213 V100:7120]} 5213
+i: openb-pod-2012 &{openb-pod-2012 0 +Inf map[A100:2931 GTX2080Ti:5732 V100:7403]} 5732
+i: openb-pod-2513 &{openb-pod-2513 0 +Inf map[A100:3356 GTX2080Ti:6232 V100:8725]} 6232.000000000001
+i: openb-pod-2829 &{openb-pod-2829 0 +Inf map[A100:3442 GTX2080Ti:6468 V100:8795]} 6468.000000000001
+i: openb-pod-3319 &{openb-pod-3319 0 +Inf map[A100:4021 GTX2080Ti:6862 V100:10358]} 6862.000000000001
+i: openb-pod-2048 &{openb-pod-2048 0 +Inf map[A100:7240 GTX2080Ti:10526 V100:17392]} 10526.000000000004
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 20295.999999999996
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 29965.000000000007
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 30276.000000000007
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1315.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 0.000000, End: 1315.000000, Runtime: 1315.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1393.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 0.000000, End: 1393.000000, Runtime: 1393.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1417.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=A100]:
+    Start: 0.000000, End: 1417.000000, Runtime: 1417.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1468.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1468.000000, Runtime: 1468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1661.000000
+    ExecutionRanges:
+  gpu=[ID=9, Type=A100]:
+    Start: 0.000000, End: 1661.000000, Runtime: 1661.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1741.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 0.000000, End: 1741.000000, Runtime: 1741.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2026.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=A100]:
+    Start: 0.000000, End: 2026.000000, Runtime: 2026.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2067.000000
+    ExecutionRanges:
+  gpu=[ID=8, Type=A100]:
+    Start: 0.000000, End: 2067.000000, Runtime: 2067.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2220.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 0.000000, End: 2220.000000, Runtime: 2220.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4321.000000
+    ExecutionRanges:
+  gpu=[ID=24, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4321.000000, Runtime: 4321.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5213.000000
+    ExecutionRanges:
+  gpu=[ID=16, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5213.000000, Runtime: 5213.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5732.000000
+    ExecutionRanges:
+  gpu=[ID=12, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5732.000000, Runtime: 5732.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6232.000000
+    ExecutionRanges:
+  gpu=[ID=10, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6232.000000, Runtime: 6232.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6468.000000
+    ExecutionRanges:
+  gpu=[ID=21, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6468.000000, Runtime: 6468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6862.000000
+    ExecutionRanges:
+  gpu=[ID=23, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6862.000000, Runtime: 6862.000000
+---------------------------------
+    SumRuntimeOnGPUs: 10526.000000
+    ExecutionRanges:
+  gpu=[ID=22, Type=GTX2080Ti]:
+    Start: 0.000000, End: 10526.000000, Runtime: 10526.000000
+---------------------------------
+    SumRuntimeOnGPUs: 20296.000000
+    ExecutionRanges:
+  gpu=[ID=15, Type=GTX2080Ti]:
+    Start: 0.000000, End: 20296.000000, Runtime: 20296.000000
+---------------------------------
+    SumRuntimeOnGPUs: 29965.000000
+    ExecutionRanges:
+  gpu=[ID=11, Type=GTX2080Ti]:
+    Start: 0.000000, End: 29965.000000, Runtime: 29965.000000
+---------------------------------
+    SumRuntimeOnGPUs: 30276.000000
+    ExecutionRanges:
+  gpu=[ID=14, Type=GTX2080Ti]:
+    Start: 0.000000, End: 30276.000000, Runtime: 30276.000000
+---------------------------------
+************************
+Simulation For Scheduler Gavel, CaseRange: [0 30], StartTime: 2024-07-30_08:30:34
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=1417)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=1468)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=1561)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=1661)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=1723)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=1741)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=2195)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=2638)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=2708)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=2849)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=2931)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=3356)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=3442)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=4021)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=7240)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=17013)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=31817)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=48212)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=88160)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=3.231252e+06)
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=2032)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=2458)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=2499)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=2630)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=2674)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=3109)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=3938)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=4122)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=4968)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=5213)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=5732)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=6232)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=6468)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=6862)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=10526)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=30500)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=45701)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=84909)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=130922)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=5.156012e+06)
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=3656)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=3754)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=4019)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=4180)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=4267)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=4307)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=5762)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=6560)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=6664)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=7120)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=7403)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=8725)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=8795)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=10358)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=17392)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=42812)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=83494)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=117397)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=222689)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=7.775938e+06)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 30] Finished, EndTime: 2024-07-30_08:30:35, RunTime: 0.00
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1315
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1393
+i: openb-pod-1310 &{openb-pod-1310 0 +Inf map[A100:1417 GTX2080Ti:2032 V100:3656]} 1417
+i: openb-pod-2261 &{openb-pod-2261 0 +Inf map[A100:1468 GTX2080Ti:2630 V100:3754]} 1468
+i: openb-pod-1615 &{openb-pod-1615 0 4586 map[A100:1561 GTX2080Ti:3109 V100:4019]} 1561
+i: openb-pod-2849 &{openb-pod-2849 0 +Inf map[A100:1661 GTX2080Ti:2499 V100:4180]} 1661
+i: openb-pod-1600 &{openb-pod-1600 0 +Inf map[A100:1723 GTX2080Ti:2674 V100:4267]} 1723
+i: openb-pod-1968 &{openb-pod-1968 0 +Inf map[A100:1741 GTX2080Ti:2458 V100:4307]} 1741
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 2025.9999999999998
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 3680
+i: openb-pod-1974 &{openb-pod-1974 0 +Inf map[A100:2708 GTX2080Ti:3938 V100:6664]} 3937.999999999999
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 4007
+i: openb-pod-2350 &{openb-pod-2350 0 +Inf map[A100:2195 GTX2080Ti:4122 V100:5762]} 4121.999999999999
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 4321.000000000001
+i: openb-pod-2181 &{openb-pod-2181 0 +Inf map[A100:2638 GTX2080Ti:4968 V100:6560]} 4968
+i: openb-pod-2266 &{openb-pod-2266 0 +Inf map[A100:2849 GTX2080Ti:5213 V100:7120]} 5213
+i: openb-pod-2012 &{openb-pod-2012 0 +Inf map[A100:2931 GTX2080Ti:5732 V100:7403]} 5732.000000000001
+i: openb-pod-2513 &{openb-pod-2513 0 +Inf map[A100:3356 GTX2080Ti:6232 V100:8725]} 6232
+i: openb-pod-2829 &{openb-pod-2829 0 +Inf map[A100:3442 GTX2080Ti:6468 V100:8795]} 6468.000000000001
+i: openb-pod-3319 &{openb-pod-3319 0 +Inf map[A100:4021 GTX2080Ti:6862 V100:10358]} 6862
+i: openb-pod-2048 &{openb-pod-2048 0 +Inf map[A100:7240 GTX2080Ti:10526 V100:17392]} 10526.000000000004
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 20296
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 29965.00000000001
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 30276.000000000004
+i: openb-pod-1090 &{openb-pod-1090 0 +Inf map[A100:17013 GTX2080Ti:30500 V100:42812]} 42811.99999999999
+i: openb-pod-2495 &{openb-pod-2495 0 +Inf map[A100:31817 GTX2080Ti:45701 V100:83494]} 83493.99999999997
+i: openb-pod-2950 &{openb-pod-2950 0 +Inf map[A100:48212 GTX2080Ti:84909 V100:117397]} 117396.99999999993
+i: openb-pod-2689 &{openb-pod-2689 0 +Inf map[A100:88160 GTX2080Ti:130922 V100:222689]} 222689.00000000012
+i: openb-pod-1620 &{openb-pod-1620 0 5.883695e+06 map[A100:3.231252e+06 GTX2080Ti:5.156012e+06 V100:7.775938e+06]} 7.775938000000004e+06
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1315.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1315.000000, Runtime: 1315.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1393.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 0.000000, End: 1393.000000, Runtime: 1393.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1417.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 0.000000, End: 1417.000000, Runtime: 1417.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1468.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 0.000000, End: 1468.000000, Runtime: 1468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1561.000000
+    ExecutionRanges:
+  gpu=[ID=8, Type=A100]:
+    Start: 0.000000, End: 1561.000000, Runtime: 1561.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1661.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=A100]:
+    Start: 0.000000, End: 1661.000000, Runtime: 1661.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1723.000000
+    ExecutionRanges:
+  gpu=[ID=9, Type=A100]:
+    Start: 0.000000, End: 1723.000000, Runtime: 1723.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1741.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=A100]:
+    Start: 0.000000, End: 1741.000000, Runtime: 1741.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2026.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=A100]:
+    Start: 0.000000, End: 2026.000000, Runtime: 2026.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3680.000000
+    ExecutionRanges:
+  gpu=[ID=14, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3680.000000, Runtime: 3680.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3938.000000
+    ExecutionRanges:
+  gpu=[ID=24, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3938.000000, Runtime: 3938.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4007.000000
+    ExecutionRanges:
+  gpu=[ID=12, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4007.000000, Runtime: 4007.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4122.000000
+    ExecutionRanges:
+  gpu=[ID=18, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4122.000000, Runtime: 4122.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4321.000000
+    ExecutionRanges:
+  gpu=[ID=17, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4321.000000, Runtime: 4321.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4968.000000
+    ExecutionRanges:
+  gpu=[ID=11, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4968.000000, Runtime: 4968.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5213.000000
+    ExecutionRanges:
+  gpu=[ID=20, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5213.000000, Runtime: 5213.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5732.000000
+    ExecutionRanges:
+  gpu=[ID=19, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5732.000000, Runtime: 5732.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6232.000000
+    ExecutionRanges:
+  gpu=[ID=21, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6232.000000, Runtime: 6232.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6468.000000
+    ExecutionRanges:
+  gpu=[ID=22, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6468.000000, Runtime: 6468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6862.000000
+    ExecutionRanges:
+  gpu=[ID=10, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6862.000000, Runtime: 6862.000000
+---------------------------------
+    SumRuntimeOnGPUs: 10526.000000
+    ExecutionRanges:
+  gpu=[ID=23, Type=GTX2080Ti]:
+    Start: 0.000000, End: 10526.000000, Runtime: 10526.000000
+---------------------------------
+    SumRuntimeOnGPUs: 20296.000000
+    ExecutionRanges:
+  gpu=[ID=16, Type=GTX2080Ti]:
+    Start: 0.000000, End: 20296.000000, Runtime: 20296.000000
+---------------------------------
+    SumRuntimeOnGPUs: 29965.000000
+    ExecutionRanges:
+  gpu=[ID=13, Type=GTX2080Ti]:
+    Start: 0.000000, End: 29965.000000, Runtime: 29965.000000
+---------------------------------
+    SumRuntimeOnGPUs: 30276.000000
+    ExecutionRanges:
+  gpu=[ID=15, Type=GTX2080Ti]:
+    Start: 0.000000, End: 30276.000000, Runtime: 30276.000000
+---------------------------------
+    SumRuntimeOnGPUs: 42812.000000
+    ExecutionRanges:
+  gpu=[ID=43, Type=V100]:
+    Start: 0.000000, End: 42812.000000, Runtime: 42812.000000
+---------------------------------
+    SumRuntimeOnGPUs: 83494.000000
+    ExecutionRanges:
+  gpu=[ID=42, Type=V100]:
+    Start: 0.000000, End: 83494.000000, Runtime: 83494.000000
+---------------------------------
+    SumRuntimeOnGPUs: 117397.000000
+    ExecutionRanges:
+  gpu=[ID=32, Type=V100]:
+    Start: 0.000000, End: 117397.000000, Runtime: 117397.000000
+---------------------------------
+    SumRuntimeOnGPUs: 222689.000000
+    ExecutionRanges:
+  gpu=[ID=38, Type=V100]:
+    Start: 0.000000, End: 222689.000000, Runtime: 222689.000000
+---------------------------------
+    SumRuntimeOnGPUs: 7775938.000000
+    ExecutionRanges:
+  gpu=[ID=40, Type=V100]:
+    Start: 0.000000, End: 7775938.000000, Runtime: 7775938.000000
+---------------------------------
+************************
+Simulation For Scheduler Gavel, CaseRange: [0 40], StartTime: 2024-07-30_08:30:35
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=1094)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=1201)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=1417)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=1466)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=1468)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=1561)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=1661)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=1723)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=1741)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=2195)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=2638)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=2708)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=2849)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=2931)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=3007)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=3356)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=3442)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=4021)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=5849)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=7240)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=8913)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=16619)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=17013)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=31817)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=48212)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=88160)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=294651)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=3.231252e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=3.238836e+06)
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=1816)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=2032)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=2225)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=2458)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=2499)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=2505)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=2630)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=2674)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=3109)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=3262)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=3938)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=4122)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=4968)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=5213)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=5732)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=5960)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=6232)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=6468)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=6862)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=10526)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=10933)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=13076)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=25921)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=30500)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=45701)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=84909)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=130922)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=515199)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=5.156012e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=5.950519e+06)
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=2774)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=2891)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=3656)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=3754)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=3881)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=4019)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=4180)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=4267)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=4307)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=5215)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=5762)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=6560)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=6664)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=7120)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=7403)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=7927)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=8725)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=8795)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=10358)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=15077)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=17392)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=22217)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=42812)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=43933)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=83494)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=117397)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=222689)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=721043)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=7.775938e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=7.867095e+06)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 40] Finished, EndTime: 2024-07-30_08:30:35, RunTime: 0.00
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-1696 &{openb-pod-1696 0 +Inf map[A100:1094 GTX2080Ti:1816 V100:2774]} 1094
+i: openb-pod-2116 &{openb-pod-2116 0 +Inf map[A100:1201 GTX2080Ti:2225 V100:2891]} 1201
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1315
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1393
+i: openb-pod-1310 &{openb-pod-1310 0 +Inf map[A100:1417 GTX2080Ti:2032 V100:3656]} 1417
+i: openb-pod-1150 &{openb-pod-1150 0 +Inf map[A100:1466 GTX2080Ti:2505 V100:3881]} 1466
+i: openb-pod-2261 &{openb-pod-2261 0 +Inf map[A100:1468 GTX2080Ti:2630 V100:3754]} 1468
+i: openb-pod-1615 &{openb-pod-1615 0 4586 map[A100:1561 GTX2080Ti:3109 V100:4019]} 1561
+i: openb-pod-2849 &{openb-pod-2849 0 +Inf map[A100:1661 GTX2080Ti:2499 V100:4180]} 1661
+i: openb-pod-1968 &{openb-pod-1968 0 +Inf map[A100:1741 GTX2080Ti:2458 V100:4307]} 2458.0000000000005
+i: openb-pod-1600 &{openb-pod-1600 0 +Inf map[A100:1723 GTX2080Ti:2674 V100:4267]} 2674
+i: openb-pod-3090 &{openb-pod-3090 0 2475 map[A100:2026 GTX2080Ti:3262 V100:5215]} 3262.0000000000005
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 3409.0000000000005
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 3679.9999999999995
+i: openb-pod-1974 &{openb-pod-1974 0 +Inf map[A100:2708 GTX2080Ti:3938 V100:6664]} 3937.9999999999995
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 4006.9999999999995
+i: openb-pod-2350 &{openb-pod-2350 0 +Inf map[A100:2195 GTX2080Ti:4122 V100:5762]} 4122
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 4321.000000000001
+i: openb-pod-2181 &{openb-pod-2181 0 +Inf map[A100:2638 GTX2080Ti:4968 V100:6560]} 4968
+i: openb-pod-2266 &{openb-pod-2266 0 +Inf map[A100:2849 GTX2080Ti:5213 V100:7120]} 5213
+i: openb-pod-2012 &{openb-pod-2012 0 +Inf map[A100:2931 GTX2080Ti:5732 V100:7403]} 5732.000000000002
+i: openb-pod-2887 &{openb-pod-2887 0 +Inf map[A100:3007 GTX2080Ti:5960 V100:7927]} 5959.999999999998
+i: openb-pod-2513 &{openb-pod-2513 0 +Inf map[A100:3356 GTX2080Ti:6232 V100:8725]} 6231.999999999998
+i: openb-pod-2829 &{openb-pod-2829 0 +Inf map[A100:3442 GTX2080Ti:6468 V100:8795]} 6468.000000000002
+i: openb-pod-3319 &{openb-pod-3319 0 +Inf map[A100:4021 GTX2080Ti:6862 V100:10358]} 10358.000000000002
+i: openb-pod-2438 &{openb-pod-2438 0 +Inf map[A100:5849 GTX2080Ti:10933 V100:15077]} 15077.000000000015
+i: openb-pod-2048 &{openb-pod-2048 0 +Inf map[A100:7240 GTX2080Ti:10526 V100:17392]} 17391.999999999996
+i: openb-pod-2140 &{openb-pod-2140 0 +Inf map[A100:8913 GTX2080Ti:13076 V100:22217]} 22216.999999999996
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 35066.99999999998
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 38304.00000000003
+i: openb-pod-1090 &{openb-pod-1090 0 +Inf map[A100:17013 GTX2080Ti:30500 V100:42812]} 42811.99999999999
+i: openb-pod-3274 &{openb-pod-3274 0 +Inf map[A100:16619 GTX2080Ti:25921 V100:43933]} 43932.99999999998
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 53194.000000000015
+i: openb-pod-2495 &{openb-pod-2495 0 +Inf map[A100:31817 GTX2080Ti:45701 V100:83494]} 83493.99999999996
+i: openb-pod-2950 &{openb-pod-2950 0 +Inf map[A100:48212 GTX2080Ti:84909 V100:117397]} 117396.99999999991
+i: openb-pod-2689 &{openb-pod-2689 0 +Inf map[A100:88160 GTX2080Ti:130922 V100:222689]} 222689.00000000023
+i: openb-pod-2145 &{openb-pod-2145 0 +Inf map[A100:294651 GTX2080Ti:515199 V100:721043]} 721043.0000000008
+i: openb-pod-1620 &{openb-pod-1620 0 5.883695e+06 map[A100:3.231252e+06 GTX2080Ti:5.156012e+06 V100:7.775938e+06]} 7.775938000000007e+06
+i: openb-pod-2025 &{openb-pod-2025 0 +Inf map[A100:3.238836e+06 GTX2080Ti:5.950519e+06 V100:7.867095e+06]} 7.867095000000004e+06
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=9, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1094.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 0.000000, End: 1094.000000, Runtime: 1094.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1201.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=A100]:
+    Start: 0.000000, End: 1201.000000, Runtime: 1201.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1315.000000
+    ExecutionRanges:
+  gpu=[ID=8, Type=A100]:
+    Start: 0.000000, End: 1315.000000, Runtime: 1315.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1393.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 0.000000, End: 1393.000000, Runtime: 1393.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1417.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 0.000000, End: 1417.000000, Runtime: 1417.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1466.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=A100]:
+    Start: 0.000000, End: 1466.000000, Runtime: 1466.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1468.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=A100]:
+    Start: 0.000000, End: 1468.000000, Runtime: 1468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1561.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1561.000000, Runtime: 1561.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1661.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 0.000000, End: 1661.000000, Runtime: 1661.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2458.000000
+    ExecutionRanges:
+  gpu=[ID=16, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2458.000000, Runtime: 2458.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2674.000000
+    ExecutionRanges:
+  gpu=[ID=22, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2674.000000, Runtime: 2674.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3262.000000
+    ExecutionRanges:
+  gpu=[ID=19, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3262.000000, Runtime: 3262.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3409.000000
+    ExecutionRanges:
+  gpu=[ID=21, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3409.000000, Runtime: 3409.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3680.000000
+    ExecutionRanges:
+  gpu=[ID=14, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3680.000000, Runtime: 3680.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3938.000000
+    ExecutionRanges:
+  gpu=[ID=11, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3938.000000, Runtime: 3938.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4007.000000
+    ExecutionRanges:
+  gpu=[ID=17, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4007.000000, Runtime: 4007.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4122.000000
+    ExecutionRanges:
+  gpu=[ID=24, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4122.000000, Runtime: 4122.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4321.000000
+    ExecutionRanges:
+  gpu=[ID=10, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4321.000000, Runtime: 4321.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4968.000000
+    ExecutionRanges:
+  gpu=[ID=20, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4968.000000, Runtime: 4968.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5213.000000
+    ExecutionRanges:
+  gpu=[ID=18, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5213.000000, Runtime: 5213.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5732.000000
+    ExecutionRanges:
+  gpu=[ID=23, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5732.000000, Runtime: 5732.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5960.000000
+    ExecutionRanges:
+  gpu=[ID=12, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5960.000000, Runtime: 5960.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6232.000000
+    ExecutionRanges:
+  gpu=[ID=13, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6232.000000, Runtime: 6232.000000
+---------------------------------
+    SumRuntimeOnGPUs: 6468.000000
+    ExecutionRanges:
+  gpu=[ID=15, Type=GTX2080Ti]:
+    Start: 0.000000, End: 6468.000000, Runtime: 6468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 10358.000000
+    ExecutionRanges:
+  gpu=[ID=35, Type=V100]:
+    Start: 0.000000, End: 10358.000000, Runtime: 10358.000000
+---------------------------------
+    SumRuntimeOnGPUs: 15077.000000
+    ExecutionRanges:
+  gpu=[ID=33, Type=V100]:
+    Start: 0.000000, End: 15077.000000, Runtime: 15077.000000
+---------------------------------
+    SumRuntimeOnGPUs: 17392.000000
+    ExecutionRanges:
+  gpu=[ID=42, Type=V100]:
+    Start: 0.000000, End: 17392.000000, Runtime: 17392.000000
+---------------------------------
+    SumRuntimeOnGPUs: 22217.000000
+    ExecutionRanges:
+  gpu=[ID=40, Type=V100]:
+    Start: 0.000000, End: 22217.000000, Runtime: 22217.000000
+---------------------------------
+    SumRuntimeOnGPUs: 35067.000000
+    ExecutionRanges:
+  gpu=[ID=39, Type=V100]:
+    Start: 0.000000, End: 35067.000000, Runtime: 35067.000000
+---------------------------------
+    SumRuntimeOnGPUs: 38304.000000
+    ExecutionRanges:
+  gpu=[ID=43, Type=V100]:
+    Start: 0.000000, End: 38304.000000, Runtime: 38304.000000
+---------------------------------
+    SumRuntimeOnGPUs: 42812.000000
+    ExecutionRanges:
+  gpu=[ID=28, Type=V100]:
+    Start: 0.000000, End: 42812.000000, Runtime: 42812.000000
+---------------------------------
+    SumRuntimeOnGPUs: 43933.000000
+    ExecutionRanges:
+  gpu=[ID=25, Type=V100]:
+    Start: 0.000000, End: 43933.000000, Runtime: 43933.000000
+---------------------------------
+    SumRuntimeOnGPUs: 53194.000000
+    ExecutionRanges:
+  gpu=[ID=31, Type=V100]:
+    Start: 0.000000, End: 53194.000000, Runtime: 53194.000000
+---------------------------------
+    SumRuntimeOnGPUs: 83494.000000
+    ExecutionRanges:
+  gpu=[ID=29, Type=V100]:
+    Start: 0.000000, End: 83494.000000, Runtime: 83494.000000
+---------------------------------
+    SumRuntimeOnGPUs: 117397.000000
+    ExecutionRanges:
+  gpu=[ID=41, Type=V100]:
+    Start: 0.000000, End: 117397.000000, Runtime: 117397.000000
+---------------------------------
+    SumRuntimeOnGPUs: 222689.000000
+    ExecutionRanges:
+  gpu=[ID=36, Type=V100]:
+    Start: 0.000000, End: 222689.000000, Runtime: 222689.000000
+---------------------------------
+    SumRuntimeOnGPUs: 721043.000000
+    ExecutionRanges:
+  gpu=[ID=30, Type=V100]:
+    Start: 0.000000, End: 721043.000000, Runtime: 721043.000000
+---------------------------------
+    SumRuntimeOnGPUs: 7775938.000000
+    ExecutionRanges:
+  gpu=[ID=27, Type=V100]:
+    Start: 0.000000, End: 7775938.000000, Runtime: 7775938.000000
+---------------------------------
+    SumRuntimeOnGPUs: 7867095.000000
+    ExecutionRanges:
+  gpu=[ID=32, Type=V100]:
+    Start: 0.000000, End: 7867095.000000, Runtime: 7867095.000000
+---------------------------------
+************************
+Simulation For Scheduler Gavel, CaseRange: [0 50], StartTime: 2024-07-30_08:30:35
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GPU Type: GTX2080Ti
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1482)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=1816)
+  - Job Name: openb-pod-2947, Remaining Duration: %!s(types.Duration=1849)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1853)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1964)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=2032)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=2225)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=2458)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=2499)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=2505)
+  - Job Name: openb-pod-2684, Remaining Duration: %!s(types.Duration=2506)
+  - Job Name: openb-pod-2074, Remaining Duration: %!s(types.Duration=2551)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=2630)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=2674)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=3109)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=3262)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=3409)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=3680)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=3938)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=4007)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=4122)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=4321)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=4968)
+  - Job Name: openb-pod-1800, Remaining Duration: %!s(types.Duration=4993)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=5213)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=5732)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=5960)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=6232)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=6468)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=6862)
+  - Job Name: openb-pod-2254, Remaining Duration: %!s(types.Duration=8209)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=10526)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=10933)
+  - Job Name: openb-pod-1611, Remaining Duration: %!s(types.Duration=11523)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=13076)
+  - Job Name: openb-pod-3118, Remaining Duration: %!s(types.Duration=15812)
+  - Job Name: openb-pod-2187, Remaining Duration: %!s(types.Duration=17233)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=20296)
+  - Job Name: openb-pod-2493, Remaining Duration: %!s(types.Duration=22555)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=25921)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=29965)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=30276)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=30500)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=45701)
+  - Job Name: openb-pod-1294, Remaining Duration: %!s(types.Duration=67521)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=84909)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=130922)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=515199)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=5.156012e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=5.950519e+06)
+GPU Type: V100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=2607)
+  - Job Name: openb-pod-2947, Remaining Duration: %!s(types.Duration=2622)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=2774)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=2891)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=3241)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=3520)
+  - Job Name: openb-pod-2074, Remaining Duration: %!s(types.Duration=3632)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=3656)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=3754)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=3881)
+  - Job Name: openb-pod-2684, Remaining Duration: %!s(types.Duration=3911)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=4019)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=4180)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=4267)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=4307)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=4954)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=5016)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=5215)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=5762)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=5858)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=6256)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=6560)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=6664)
+  - Job Name: openb-pod-1800, Remaining Duration: %!s(types.Duration=6758)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=7120)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=7403)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=7927)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=8725)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=8795)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=10358)
+  - Job Name: openb-pod-2254, Remaining Duration: %!s(types.Duration=14494)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=15077)
+  - Job Name: openb-pod-1611, Remaining Duration: %!s(types.Duration=16444)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=17392)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=22217)
+  - Job Name: openb-pod-3118, Remaining Duration: %!s(types.Duration=23657)
+  - Job Name: openb-pod-2187, Remaining Duration: %!s(types.Duration=24616)
+  - Job Name: openb-pod-2493, Remaining Duration: %!s(types.Duration=28988)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=35067)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=38304)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=42812)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=43933)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=53194)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=83494)
+  - Job Name: openb-pod-1294, Remaining Duration: %!s(types.Duration=104544)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=117397)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=222689)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=721043)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=7.775938e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=7.867095e+06)
+GPU Type: A100
+  - Job Name: openb-pod-3301, Remaining Duration: %!s(types.Duration=1001)
+  - Job Name: openb-pod-2947, Remaining Duration: %!s(types.Duration=1086)
+  - Job Name: openb-pod-1696, Remaining Duration: %!s(types.Duration=1094)
+  - Job Name: openb-pod-2116, Remaining Duration: %!s(types.Duration=1201)
+  - Job Name: openb-pod-1346, Remaining Duration: %!s(types.Duration=1315)
+  - Job Name: openb-pod-1154, Remaining Duration: %!s(types.Duration=1393)
+  - Job Name: openb-pod-1310, Remaining Duration: %!s(types.Duration=1417)
+  - Job Name: openb-pod-2074, Remaining Duration: %!s(types.Duration=1447)
+  - Job Name: openb-pod-1150, Remaining Duration: %!s(types.Duration=1466)
+  - Job Name: openb-pod-2261, Remaining Duration: %!s(types.Duration=1468)
+  - Job Name: openb-pod-2684, Remaining Duration: %!s(types.Duration=1475)
+  - Job Name: openb-pod-1615, Remaining Duration: %!s(types.Duration=1561)
+  - Job Name: openb-pod-2849, Remaining Duration: %!s(types.Duration=1661)
+  - Job Name: openb-pod-1600, Remaining Duration: %!s(types.Duration=1723)
+  - Job Name: openb-pod-1968, Remaining Duration: %!s(types.Duration=1741)
+  - Job Name: openb-pod-3090, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-1783, Remaining Duration: %!s(types.Duration=2026)
+  - Job Name: openb-pod-3195, Remaining Duration: %!s(types.Duration=2067)
+  - Job Name: openb-pod-2350, Remaining Duration: %!s(types.Duration=2195)
+  - Job Name: openb-pod-2522, Remaining Duration: %!s(types.Duration=2220)
+  - Job Name: openb-pod-3234, Remaining Duration: %!s(types.Duration=2590)
+  - Job Name: openb-pod-1800, Remaining Duration: %!s(types.Duration=2625)
+  - Job Name: openb-pod-2181, Remaining Duration: %!s(types.Duration=2638)
+  - Job Name: openb-pod-1974, Remaining Duration: %!s(types.Duration=2708)
+  - Job Name: openb-pod-2266, Remaining Duration: %!s(types.Duration=2849)
+  - Job Name: openb-pod-2012, Remaining Duration: %!s(types.Duration=2931)
+  - Job Name: openb-pod-2887, Remaining Duration: %!s(types.Duration=3007)
+  - Job Name: openb-pod-2513, Remaining Duration: %!s(types.Duration=3356)
+  - Job Name: openb-pod-2829, Remaining Duration: %!s(types.Duration=3442)
+  - Job Name: openb-pod-3319, Remaining Duration: %!s(types.Duration=4021)
+  - Job Name: openb-pod-2254, Remaining Duration: %!s(types.Duration=5583)
+  - Job Name: openb-pod-2438, Remaining Duration: %!s(types.Duration=5849)
+  - Job Name: openb-pod-1611, Remaining Duration: %!s(types.Duration=6271)
+  - Job Name: openb-pod-2048, Remaining Duration: %!s(types.Duration=7240)
+  - Job Name: openb-pod-2140, Remaining Duration: %!s(types.Duration=8913)
+  - Job Name: openb-pod-3118, Remaining Duration: %!s(types.Duration=9379)
+  - Job Name: openb-pod-2187, Remaining Duration: %!s(types.Duration=10228)
+  - Job Name: openb-pod-2493, Remaining Duration: %!s(types.Duration=12061)
+  - Job Name: openb-pod-2813, Remaining Duration: %!s(types.Duration=14230)
+  - Job Name: openb-pod-1767, Remaining Duration: %!s(types.Duration=15578)
+  - Job Name: openb-pod-3274, Remaining Duration: %!s(types.Duration=16619)
+  - Job Name: openb-pod-1090, Remaining Duration: %!s(types.Duration=17013)
+  - Job Name: openb-pod-1319, Remaining Duration: %!s(types.Duration=20604)
+  - Job Name: openb-pod-2495, Remaining Duration: %!s(types.Duration=31817)
+  - Job Name: openb-pod-1294, Remaining Duration: %!s(types.Duration=40825)
+  - Job Name: openb-pod-2950, Remaining Duration: %!s(types.Duration=48212)
+  - Job Name: openb-pod-2689, Remaining Duration: %!s(types.Duration=88160)
+  - Job Name: openb-pod-2145, Remaining Duration: %!s(types.Duration=294651)
+  - Job Name: openb-pod-1620, Remaining Duration: %!s(types.Duration=3.231252e+06)
+  - Job Name: openb-pod-2025, Remaining Duration: %!s(types.Duration=3.238836e+06)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation For Scheduler Gavel, CaseRange: [0 50] Finished, EndTime: 2024-07-30_08:30:35, RunTime: 0.01
+************************
+FinishedJobs:
+i: openb-pod-3301 &{openb-pod-3301 0 +Inf map[A100:1001 GTX2080Ti:1482 V100:2607]} 1001
+i: openb-pod-2947 &{openb-pod-2947 0 +Inf map[A100:1086 GTX2080Ti:1849 V100:2622]} 1086
+i: openb-pod-1696 &{openb-pod-1696 0 +Inf map[A100:1094 GTX2080Ti:1816 V100:2774]} 1094
+i: openb-pod-2116 &{openb-pod-2116 0 +Inf map[A100:1201 GTX2080Ti:2225 V100:2891]} 1201
+i: openb-pod-1346 &{openb-pod-1346 0 +Inf map[A100:1315 GTX2080Ti:1853 V100:3241]} 1315
+i: openb-pod-1154 &{openb-pod-1154 0 +Inf map[A100:1393 GTX2080Ti:1964 V100:3520]} 1393
+i: openb-pod-1310 &{openb-pod-1310 0 +Inf map[A100:1417 GTX2080Ti:2032 V100:3656]} 1417
+i: openb-pod-2074 &{openb-pod-2074 0 +Inf map[A100:1447 GTX2080Ti:2551 V100:3632]} 1447
+i: openb-pod-1150 &{openb-pod-1150 0 +Inf map[A100:1466 GTX2080Ti:2505 V100:3881]} 1466
+i: openb-pod-2261 &{openb-pod-2261 0 +Inf map[A100:1468 GTX2080Ti:2630 V100:3754]} 1468
+i: openb-pod-1968 &{openb-pod-1968 0 +Inf map[A100:1741 GTX2080Ti:2458 V100:4307]} 2458
+i: openb-pod-2849 &{openb-pod-2849 0 +Inf map[A100:1661 GTX2080Ti:2499 V100:4180]} 2498.9999999999995
+i: openb-pod-2684 &{openb-pod-2684 0 +Inf map[A100:1475 GTX2080Ti:2506 V100:3911]} 2506
+i: openb-pod-1600 &{openb-pod-1600 0 +Inf map[A100:1723 GTX2080Ti:2674 V100:4267]} 2674
+i: openb-pod-1615 &{openb-pod-1615 0 4586 map[A100:1561 GTX2080Ti:3109 V100:4019]} 3109
+i: openb-pod-3090 &{openb-pod-3090 0 2475 map[A100:2026 GTX2080Ti:3262 V100:5215]} 3262
+i: openb-pod-1783 &{openb-pod-1783 0 +Inf map[A100:2026 GTX2080Ti:3409 V100:4954]} 3409.000000000001
+i: openb-pod-2522 &{openb-pod-2522 0 +Inf map[A100:2220 GTX2080Ti:3680 V100:5858]} 3680
+i: openb-pod-1974 &{openb-pod-1974 0 +Inf map[A100:2708 GTX2080Ti:3938 V100:6664]} 3937.9999999999995
+i: openb-pod-3195 &{openb-pod-3195 0 +Inf map[A100:2067 GTX2080Ti:4007 V100:5016]} 4007
+i: openb-pod-2350 &{openb-pod-2350 0 +Inf map[A100:2195 GTX2080Ti:4122 V100:5762]} 4121.999999999999
+i: openb-pod-3234 &{openb-pod-3234 0 +Inf map[A100:2590 GTX2080Ti:4321 V100:6256]} 4321.000000000001
+i: openb-pod-2181 &{openb-pod-2181 0 +Inf map[A100:2638 GTX2080Ti:4968 V100:6560]} 4968
+i: openb-pod-1800 &{openb-pod-1800 0 +Inf map[A100:2625 GTX2080Ti:4993 V100:6758]} 4993
+i: openb-pod-2266 &{openb-pod-2266 0 +Inf map[A100:2849 GTX2080Ti:5213 V100:7120]} 5212.999999999999
+i: openb-pod-2012 &{openb-pod-2012 0 +Inf map[A100:2931 GTX2080Ti:5732 V100:7403]} 7403.000000000002
+i: openb-pod-2887 &{openb-pod-2887 0 +Inf map[A100:3007 GTX2080Ti:5960 V100:7927]} 7927.000000000002
+i: openb-pod-2513 &{openb-pod-2513 0 +Inf map[A100:3356 GTX2080Ti:6232 V100:8725]} 8725.000000000004
+i: openb-pod-2829 &{openb-pod-2829 0 +Inf map[A100:3442 GTX2080Ti:6468 V100:8795]} 8794.999999999998
+i: openb-pod-3319 &{openb-pod-3319 0 +Inf map[A100:4021 GTX2080Ti:6862 V100:10358]} 10358
+i: openb-pod-2254 &{openb-pod-2254 0 +Inf map[A100:5583 GTX2080Ti:8209 V100:14494]} 14493.999999999998
+i: openb-pod-2438 &{openb-pod-2438 0 +Inf map[A100:5849 GTX2080Ti:10933 V100:15077]} 15077.000000000004
+i: openb-pod-1611 &{openb-pod-1611 0 +Inf map[A100:6271 GTX2080Ti:11523 V100:16444]} 16443.999999999993
+i: openb-pod-2048 &{openb-pod-2048 0 +Inf map[A100:7240 GTX2080Ti:10526 V100:17392]} 17391.999999999996
+i: openb-pod-2140 &{openb-pod-2140 0 +Inf map[A100:8913 GTX2080Ti:13076 V100:22217]} 22216.999999999996
+i: openb-pod-3118 &{openb-pod-3118 0 +Inf map[A100:9379 GTX2080Ti:15812 V100:23657]} 23657.00000000001
+i: openb-pod-2187 &{openb-pod-2187 0 +Inf map[A100:10228 GTX2080Ti:17233 V100:24616]} 24615.999999999996
+i: openb-pod-2493 &{openb-pod-2493 0 +Inf map[A100:12061 GTX2080Ti:22555 V100:28988]} 28988.00000000002
+i: openb-pod-2813 &{openb-pod-2813 0 +Inf map[A100:14230 GTX2080Ti:20296 V100:35067]} 35066.999999999985
+i: openb-pod-1767 &{openb-pod-1767 0 +Inf map[A100:15578 GTX2080Ti:30276 V100:38304]} 38304.000000000015
+i: openb-pod-1090 &{openb-pod-1090 0 +Inf map[A100:17013 GTX2080Ti:30500 V100:42812]} 42812.000000000015
+i: openb-pod-3274 &{openb-pod-3274 0 +Inf map[A100:16619 GTX2080Ti:25921 V100:43933]} 43932.99999999998
+i: openb-pod-2950 &{openb-pod-2950 0 +Inf map[A100:48212 GTX2080Ti:84909 V100:117397]} 49213
+i: openb-pod-1319 &{openb-pod-1319 0 +Inf map[A100:20604 GTX2080Ti:29965 V100:53194]} 53194.000000000015
+i: openb-pod-2495 &{openb-pod-2495 0 +Inf map[A100:31817 GTX2080Ti:45701 V100:83494]} 83493.99999999999
+i: openb-pod-2689 &{openb-pod-2689 0 +Inf map[A100:88160 GTX2080Ti:130922 V100:222689]} 89245.99999999994
+i: openb-pod-1294 &{openb-pod-1294 0 +Inf map[A100:40825 GTX2080Ti:67521 V100:104544]} 104543.99999999993
+i: openb-pod-2145 &{openb-pod-2145 0 +Inf map[A100:294651 GTX2080Ti:515199 V100:721043]} 295745.9999999998
+i: openb-pod-1620 &{openb-pod-1620 0 5.883695e+06 map[A100:3.231252e+06 GTX2080Ti:5.156012e+06 V100:7.775938e+06]} 3.2324540000000033e+06
+i: openb-pod-2025 &{openb-pod-2025 0 +Inf map[A100:3.238836e+06 GTX2080Ti:5.950519e+06 V100:7.867095e+06]} 3.2401519999999986e+06
+    SumRuntimeOnGPUs: 1001.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 0.000000, End: 1001.000000, Runtime: 1001.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1086.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 0.000000, End: 1086.000000, Runtime: 1086.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1094.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 0.000000, End: 1094.000000, Runtime: 1094.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1201.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 0.000000, End: 1201.000000, Runtime: 1201.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1315.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 0.000000, End: 1315.000000, Runtime: 1315.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1393.000000
+    ExecutionRanges:
+  gpu=[ID=8, Type=A100]:
+    Start: 0.000000, End: 1393.000000, Runtime: 1393.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1417.000000
+    ExecutionRanges:
+  gpu=[ID=9, Type=A100]:
+    Start: 0.000000, End: 1417.000000, Runtime: 1417.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1447.000000
+    ExecutionRanges:
+  gpu=[ID=3, Type=A100]:
+    Start: 0.000000, End: 1447.000000, Runtime: 1447.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1466.000000
+    ExecutionRanges:
+  gpu=[ID=4, Type=A100]:
+    Start: 0.000000, End: 1466.000000, Runtime: 1466.000000
+---------------------------------
+    SumRuntimeOnGPUs: 1468.000000
+    ExecutionRanges:
+  gpu=[ID=2, Type=A100]:
+    Start: 0.000000, End: 1468.000000, Runtime: 1468.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2458.000000
+    ExecutionRanges:
+  gpu=[ID=14, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2458.000000, Runtime: 2458.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2499.000000
+    ExecutionRanges:
+  gpu=[ID=17, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2499.000000, Runtime: 2499.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2506.000000
+    ExecutionRanges:
+  gpu=[ID=15, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2506.000000, Runtime: 2506.000000
+---------------------------------
+    SumRuntimeOnGPUs: 2674.000000
+    ExecutionRanges:
+  gpu=[ID=20, Type=GTX2080Ti]:
+    Start: 0.000000, End: 2674.000000, Runtime: 2674.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3109.000000
+    ExecutionRanges:
+  gpu=[ID=24, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3109.000000, Runtime: 3109.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3262.000000
+    ExecutionRanges:
+  gpu=[ID=13, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3262.000000, Runtime: 3262.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3409.000000
+    ExecutionRanges:
+  gpu=[ID=11, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3409.000000, Runtime: 3409.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3680.000000
+    ExecutionRanges:
+  gpu=[ID=22, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3680.000000, Runtime: 3680.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3938.000000
+    ExecutionRanges:
+  gpu=[ID=19, Type=GTX2080Ti]:
+    Start: 0.000000, End: 3938.000000, Runtime: 3938.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4007.000000
+    ExecutionRanges:
+  gpu=[ID=21, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4007.000000, Runtime: 4007.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4122.000000
+    ExecutionRanges:
+  gpu=[ID=16, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4122.000000, Runtime: 4122.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4321.000000
+    ExecutionRanges:
+  gpu=[ID=23, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4321.000000, Runtime: 4321.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4968.000000
+    ExecutionRanges:
+  gpu=[ID=18, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4968.000000, Runtime: 4968.000000
+---------------------------------
+    SumRuntimeOnGPUs: 4993.000000
+    ExecutionRanges:
+  gpu=[ID=12, Type=GTX2080Ti]:
+    Start: 0.000000, End: 4993.000000, Runtime: 4993.000000
+---------------------------------
+    SumRuntimeOnGPUs: 5213.000000
+    ExecutionRanges:
+  gpu=[ID=10, Type=GTX2080Ti]:
+    Start: 0.000000, End: 5213.000000, Runtime: 5213.000000
+---------------------------------
+    SumRuntimeOnGPUs: 7403.000000
+    ExecutionRanges:
+  gpu=[ID=31, Type=V100]:
+    Start: 0.000000, End: 7403.000000, Runtime: 7403.000000
+---------------------------------
+    SumRuntimeOnGPUs: 7927.000000
+    ExecutionRanges:
+  gpu=[ID=30, Type=V100]:
+    Start: 0.000000, End: 7927.000000, Runtime: 7927.000000
+---------------------------------
+    SumRuntimeOnGPUs: 8725.000000
+    ExecutionRanges:
+  gpu=[ID=27, Type=V100]:
+    Start: 0.000000, End: 8725.000000, Runtime: 8725.000000
+---------------------------------
+    SumRuntimeOnGPUs: 8795.000000
+    ExecutionRanges:
+  gpu=[ID=26, Type=V100]:
+    Start: 0.000000, End: 8795.000000, Runtime: 8795.000000
+---------------------------------
+    SumRuntimeOnGPUs: 10358.000000
+    ExecutionRanges:
+  gpu=[ID=43, Type=V100]:
+    Start: 0.000000, End: 10358.000000, Runtime: 10358.000000
+---------------------------------
+    SumRuntimeOnGPUs: 14494.000000
+    ExecutionRanges:
+  gpu=[ID=33, Type=V100]:
+    Start: 0.000000, End: 14494.000000, Runtime: 14494.000000
+---------------------------------
+    SumRuntimeOnGPUs: 15077.000000
+    ExecutionRanges:
+  gpu=[ID=32, Type=V100]:
+    Start: 0.000000, End: 15077.000000, Runtime: 15077.000000
+---------------------------------
+    SumRuntimeOnGPUs: 16444.000000
+    ExecutionRanges:
+  gpu=[ID=34, Type=V100]:
+    Start: 0.000000, End: 16444.000000, Runtime: 16444.000000
+---------------------------------
+    SumRuntimeOnGPUs: 17392.000000
+    ExecutionRanges:
+  gpu=[ID=29, Type=V100]:
+    Start: 0.000000, End: 17392.000000, Runtime: 17392.000000
+---------------------------------
+    SumRuntimeOnGPUs: 22217.000000
+    ExecutionRanges:
+  gpu=[ID=42, Type=V100]:
+    Start: 0.000000, End: 22217.000000, Runtime: 22217.000000
+---------------------------------
+    SumRuntimeOnGPUs: 23657.000000
+    ExecutionRanges:
+  gpu=[ID=28, Type=V100]:
+    Start: 0.000000, End: 23657.000000, Runtime: 23657.000000
+---------------------------------
+    SumRuntimeOnGPUs: 24616.000000
+    ExecutionRanges:
+  gpu=[ID=36, Type=V100]:
+    Start: 0.000000, End: 24616.000000, Runtime: 24616.000000
+---------------------------------
+    SumRuntimeOnGPUs: 28988.000000
+    ExecutionRanges:
+  gpu=[ID=37, Type=V100]:
+    Start: 0.000000, End: 28988.000000, Runtime: 28988.000000
+---------------------------------
+    SumRuntimeOnGPUs: 35067.000000
+    ExecutionRanges:
+  gpu=[ID=44, Type=V100]:
+    Start: 0.000000, End: 35067.000000, Runtime: 35067.000000
+---------------------------------
+    SumRuntimeOnGPUs: 38304.000000
+    ExecutionRanges:
+  gpu=[ID=25, Type=V100]:
+    Start: 0.000000, End: 38304.000000, Runtime: 38304.000000
+---------------------------------
+    SumRuntimeOnGPUs: 42812.000000
+    ExecutionRanges:
+  gpu=[ID=39, Type=V100]:
+    Start: 0.000000, End: 42812.000000, Runtime: 42812.000000
+---------------------------------
+    SumRuntimeOnGPUs: 43933.000000
+    ExecutionRanges:
+  gpu=[ID=38, Type=V100]:
+    Start: 0.000000, End: 43933.000000, Runtime: 43933.000000
+---------------------------------
+    SumRuntimeOnGPUs: 48212.000000
+    ExecutionRanges:
+  gpu=[ID=7, Type=A100]:
+    Start: 1001.000000, End: 49213.000000, Runtime: 48212.000000
+---------------------------------
+    SumRuntimeOnGPUs: 53194.000000
+    ExecutionRanges:
+  gpu=[ID=41, Type=V100]:
+    Start: 0.000000, End: 53194.000000, Runtime: 53194.000000
+---------------------------------
+    SumRuntimeOnGPUs: 83494.000000
+    ExecutionRanges:
+  gpu=[ID=40, Type=V100]:
+    Start: 0.000000, End: 83494.000000, Runtime: 83494.000000
+---------------------------------
+    SumRuntimeOnGPUs: 88160.000000
+    ExecutionRanges:
+  gpu=[ID=0, Type=A100]:
+    Start: 1086.000000, End: 89246.000000, Runtime: 88160.000000
+---------------------------------
+    SumRuntimeOnGPUs: 104544.000000
+    ExecutionRanges:
+  gpu=[ID=35, Type=V100]:
+    Start: 0.000000, End: 104544.000000, Runtime: 104544.000000
+---------------------------------
+    SumRuntimeOnGPUs: 294651.000000
+    ExecutionRanges:
+  gpu=[ID=6, Type=A100]:
+    Start: 1095.000000, End: 295746.000000, Runtime: 294651.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3231252.000000
+    ExecutionRanges:
+  gpu=[ID=1, Type=A100]:
+    Start: 1202.000000, End: 3232454.000000, Runtime: 3231252.000000
+---------------------------------
+    SumRuntimeOnGPUs: 3238836.000000
+    ExecutionRanges:
+  gpu=[ID=5, Type=A100]:
+    Start: 1316.000000, End: 3240152.000000, Runtime: 3238836.000000
+---------------------------------
+************************
+Ending Simulation For Scheduler Gavel, EndTime: 2024-07-30_08:30:35, RunTime: 0.02
+End Simulation Time: 2024-07-30_08:30:35, RunTime: 0.02
+generate report to /hydra/data/[vel]_norm_openb_pod_list_gpushare20_case_range_([0_10]-[0_50])_07-30_08:30:35.json
